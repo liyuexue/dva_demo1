@@ -2,6 +2,7 @@ import request from '../utils/request';
 
 // 表格显示的数据
 export function fetch({ page = 1 }) {
+  alert('aaa')
   return request(`/api/users?_page=${page}&_limit=5`);
 }
 
